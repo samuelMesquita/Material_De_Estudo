@@ -1,0 +1,11 @@
+site_name: Material de estudo
+site_url: http://127.0.0.1:8000/
+site_description: Site com a documentação dos estudos feitos por mim.
+copyright: Samuel Mesquita da Fonseca
+nav:
+    - Home: index.md
+    - Boas Praticas: 
+      - S.O.L.I.D: solid.md
+plugins:
+  - search:
+      lang: pt
