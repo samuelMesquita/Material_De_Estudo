@@ -6,6 +6,22 @@ nav:
     - Home: index.md
     - Boas Praticas: 
       - S.O.L.I.D: solid.md
+theme:
+  name: material
+  palette:
+    primary: deep purple
+  icon:
+    admonition:
+      info: octicons/info-16
 plugins:
   - search:
       lang: pt
+  - glightbox
+markdown_extensions:
+  - toc:
+      title: Tópicos
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
